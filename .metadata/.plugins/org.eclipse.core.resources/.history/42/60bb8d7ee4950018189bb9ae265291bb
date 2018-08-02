@@ -1,0 +1,18 @@
+package br.com.fiap.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ContatoController {
+
+	@RequestMapping("/contato/enviar")
+	public String contato() {
+		return "contato/form";
+	}
+	
+	//Método que recupera as infgormações do formulário
+	public String processaContato(String nome) {
+		return "form";
+	}
+}

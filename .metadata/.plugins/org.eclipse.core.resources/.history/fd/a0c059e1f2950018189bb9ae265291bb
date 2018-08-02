@@ -1,0 +1,32 @@
+package br.com.fiap.spring.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import br.com.fiap.spring.entity.Pessoa;
+
+@Controller
+@RequestMapping("/pessoa") // Referencia a URL 
+public class PessoaController {
+
+	
+	@GetMapping("cadastrar") // Referencia a URL 
+	public String contato() {
+		return "pessoa/pessoa"; // Referencia ao caminho da pagina
+	}
+
+	// Método que recupera as infgormações do formulário
+	@PostMapping("cadastrar") // Referencia a URL
+	public String processaContato(Pessoa pessoa) {
+		String pos;
+		if (!pessoa.isAposentado()) {
+			pos = "Aposentado";
+		}else 
+			pos = "Não aposentado";
+		System.out.println("Nome: "+ pessoa.getNome() + "\n Idade: " + idade + "\n Status: " + pos);
+		return "pessoa/pessoa"; // Referencia ao caminho da pagina 
+	}
+
+}
