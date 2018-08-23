@@ -3,4 +3,5 @@
   <module moduleId="org.eclipse.jst.jee.server:03-Spring-MVC" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:01-Spring-MVC" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:02-Spring-MVC" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:04-Spring-MVC-JPA" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>
