@@ -7,7 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 import br.com.fiap.jpa.dao.GenericDAO;
-import br.com.fiap.jpa.exception.CommitException;
 import br.com.fiap.jpa.exception.KeyNotFoundException;
 
 public class GenericDAOImpl<T, K> implements GenericDAO<T, K> {
