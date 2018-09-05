@@ -30,11 +30,39 @@
 					<td><a
 							href="<c:url value="/produto/editar/${produto.codigo }"/>"
 							class="btn btn-primary">Editar</a>
-						<a href="<c:url value="/produto/excluir/${produto.codigo }"/>" class="btn btn-danger"> Apagar </button>
+						<button onclick="codigoProduto.value = ${produto.codigo}" type="button" class="btn btn-danger"
+								data-toggle="modal" data-target="#exampleModal">
+  						Apagar
+					</button>
 					</td>
 				</tr>
 			</c:forEach>
 		</table>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+				aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Apagar ?</h5>
+        <button type="button" class="close" data-dismiss="modal"
+								aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+      	<form action="<c:url value="/produto/excluir"/>" method="post">
+      		<input type="hidden" id="codigoProduto" name="codigo">
+	        <button type="button" class="btn btn-secondary"
+									data-dismiss="modal">Cancelar</button>
+	        <button type="submit" class="btn btn-danger">Apagar</button>
+      	</form>
+      </div>
+    </div>
+  </div>
+</div>
 		
 	</div>
 

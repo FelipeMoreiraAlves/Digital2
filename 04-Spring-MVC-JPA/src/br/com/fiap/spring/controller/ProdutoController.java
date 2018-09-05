@@ -28,20 +28,21 @@ public class ProdutoController {
 	public ModelAndView abrirEdicao(@PathVariable("id") int id) {
 		return new ModelAndView("produto/edicao").addObject("produto", dao.pesquisar(id));
 	}
-	
+
 	@Transactional
 	@PostMapping("editar")
-	public ModelAndView editarProduto(Produto produto, RedirectAttributes r) {
+	public String editarProduto(Produto produto, RedirectAttributes r) {
 		dao.atualizar(produto);
 		r.addFlashAttribute("msg", "Produto Atualizado!!");
-		return new ModelAndView("redirect:/produto/listar/");
+		return ("redirect:/produto/listar");
 	}
-	
-	@GetMapping("excluir/{id}")
-	public ModelAndView excluirProduto(@PathVariable("id") int codigo, RedirectAttributes r) throws KeyNotFoundException {
+
+	@Transactional
+	@PostMapping("excluir")
+	public String excluirProduto(int codigo, RedirectAttributes r) throws KeyNotFoundException {
 		dao.remover(codigo);
 		r.addFlashAttribute("msg", "Produto Deletado!!");
-		return new ModelAndView("redirect:/produto/listar/");
+		return ("redirect:/produto/listar");
 	}
 
 	// Cadastrar um produto
@@ -64,6 +65,11 @@ public class ProdutoController {
 	@GetMapping("listar")
 	public ModelAndView listar() {
 		return new ModelAndView("produto/listar").addObject("produtos", dao.listar());
+	}
+	
+	@GetMapping("pesquisar")
+	public ModelAndView pesquisar(String search) {
+		return new ModelAndView("produto/listar").addObject("produtos", dao.buscarPorNome(search));
 	}
 
 }

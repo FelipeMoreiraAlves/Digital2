@@ -13,7 +13,7 @@ public class GenericDAOImpl<T, K> implements GenericDAO<T, K> {
 
 	// O framework irá gerenciar os EntityManger
 	@PersistenceContext
-	private EntityManager em;
+	protected EntityManager em;
 
 	private Class<T> clazz;
 
