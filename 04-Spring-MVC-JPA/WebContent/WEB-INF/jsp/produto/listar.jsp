@@ -50,7 +50,7 @@
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Deseja mesmo apagar ?
       </div>
       <div class="modal-footer">
       	<form action="<c:url value="/produto/excluir"/>" method="post">
