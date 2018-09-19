@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\Digital2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Digital2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\04-Spring-MVC-JPA" path="/01-Spring-MVC" reloadable="true" source="org.eclipse.jst.jee.server:04-Spring-MVC-JPA"/><Context docBase="D:\Digital2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\05-Spring-MVC-JPA" path="/05-Spring-MVC-JPA" reloadable="true" source="org.eclipse.jst.jee.server:05-Spring-MVC-JPA"/></Host>
+      <Context docBase="D:\Digital2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\Digital2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\05-Spring-MVC-JPA" path="/05-Spring-MVC-JPA" reloadable="true" source="org.eclipse.jst.jee.server:05-Spring-MVC-JPA"/></Host>
     </Engine>
   </Service>
 </Server>

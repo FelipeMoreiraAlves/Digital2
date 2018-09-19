@@ -45,4 +45,13 @@ public class ConvidadoController {
 		r.addFlashAttribute("msg", "Convidado Removido");
 		return ("redirect:/convidado/listar");
 	}
+	
+	
+	@Transactional
+	@PostMapping("confirmar")
+	public String confirmarConvidado(Convidado convidado, RedirectAttributes r) throws KeyNotFoundException {
+		dao.atualizar(convidado);
+		r.addFlashAttribute("msg", "Presença confirmada!!");
+		return ("redirect:/convidado/listar");
+	}
 }

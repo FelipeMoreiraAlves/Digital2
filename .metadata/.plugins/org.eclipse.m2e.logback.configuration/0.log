@@ -4298,3 +4298,146 @@
 2018-09-12 21:51:34,639 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
 2018-09-12 21:51:34,640 [Worker-103] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-09-12 21:51:34,640 [Worker-103] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:13:56,851 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-09-19 19:14:16,943 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\01-Spring-MVC\pom.xml.
+2018-09-19 19:14:16,943 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\01-Spring-MVC\pom.xml.
+2018-09-19 19:14:18,223 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2018-09-19 19:14:18,227 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2018-09-19 19:14:19,346 [Worker-18] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2018-09-19 19:14:19,850 [Worker-5] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/4.3.5.RELEASE/spring-core-4.3.5.RELEASE.jar
+2018-09-19 19:14:20,117 [Worker-5] WARN  o.e.a.i.i.DefaultRepositoryEventDispatcher - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-09-19 19:14:22,435 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:22,436 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\main\resources
+2018-09-19 19:14:22,824 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:22,825 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\test\resources
+2018-09-19 19:14:22,826 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\01-Spring-MVC\pom.xml.
+2018-09-19 19:14:23,183 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\02-Spring-MVC\pom.xml.
+2018-09-19 19:14:23,226 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\03-Spring-MVC\pom.xml.
+2018-09-19 19:14:23,264 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\04-Spring-MVC-JPA\pom.xml.
+2018-09-19 19:14:24,886 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar
+2018-09-19 19:14:25,538 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar
+2018-09-19 19:14:25,574 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:25,575 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\main\resources
+2018-09-19 19:14:25,577 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:25,577 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\test\resources
+2018-09-19 19:14:25,719 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\02-Spring-MVC\pom.xml.
+2018-09-19 19:14:25,735 [Worker-0] WARN  o.e.a.i.i.DefaultRepositoryEventDispatcher - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2018-09-19 19:14:25,925 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:25,925 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\main\resources
+2018-09-19 19:14:25,927 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:25,927 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\test\resources
+2018-09-19 19:14:26,137 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:26,138 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\main\resources
+2018-09-19 19:14:26,139 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:26,140 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\test\resources
+2018-09-19 19:14:26,229 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\03-Spring-MVC\pom.xml.
+2018-09-19 19:14:26,392 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:26,393 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\03-Spring-MVC\src\main\resources
+2018-09-19 19:14:26,393 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:26,394 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\03-Spring-MVC\src\test\resources
+2018-09-19 19:14:26,517 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\04-Spring-MVC-JPA\pom.xml.
+2018-09-19 19:14:27,078 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:27,079 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\04-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:14:27,080 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:27,081 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\04-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:14:29,446 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\01-Spring-MVC\pom.xml.
+2018-09-19 19:14:29,530 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\02-Spring-MVC\pom.xml.
+2018-09-19 19:14:29,583 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\03-Spring-MVC\pom.xml.
+2018-09-19 19:14:29,634 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\04-Spring-MVC-JPA\pom.xml.
+2018-09-19 19:14:29,797 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: 01-Spring-MVC:01-Spring-MVC:0.0.1-SNAPSHOT @ D:\Digital2\05-Spring-MVC-JPA\pom.xml.
+2018-09-19 19:14:47,978 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:47,980 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\main\resources
+2018-09-19 19:14:47,981 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:47,982 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\01-Spring-MVC\src\test\resources
+2018-09-19 19:14:48,024 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:48,024 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\main\resources
+2018-09-19 19:14:48,025 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:48,026 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\02-Spring-MVC\src\test\resources
+2018-09-19 19:14:50,289 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:50,289 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\03-Spring-MVC\src\main\resources
+2018-09-19 19:14:50,290 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:50,291 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\03-Spring-MVC\src\test\resources
+2018-09-19 19:14:50,696 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:50,696 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\04-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:14:50,698 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:50,698 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\04-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:14:51,103 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:51,104 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:14:51,105 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:14:51,105 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:22:16,536 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:22:16,537 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:22:16,540 [Worker-18] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:22:16,541 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:22:40,499 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:22:40,500 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:22:40,502 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:22:40,503 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:23:22,029 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:23:22,030 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:23:22,032 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:23:22,033 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:34:16,097 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:34:16,097 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:34:16,098 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:34:16,099 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:38:07,559 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:38:07,560 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:38:07,562 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:38:07,563 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:39:11,009 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:39:11,010 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:39:11,011 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:39:11,012 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:39:48,067 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:39:48,067 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:39:48,068 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:39:48,068 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:40:12,221 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:40:12,221 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:40:12,222 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:40:12,223 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:40:18,631 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:40:18,632 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:40:18,633 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:40:18,634 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:41:05,978 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:05,979 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:41:05,980 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:05,981 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:41:29,268 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:29,269 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:41:29,271 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:29,272 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:41:34,712 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:34,713 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:41:34,715 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:41:34,715 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:42:01,134 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:01,134 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:42:01,136 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:01,136 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:42:08,619 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:08,620 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:42:08,620 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:08,620 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:42:22,541 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:22,542 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:42:22,544 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:22,545 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:42:52,418 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:52,419 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:42:52,420 [Worker-42] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:42:52,420 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:51:18,490 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:51:18,490 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:51:18,491 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:51:18,491 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:52:31,708 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:52:31,708 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:52:31,709 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:52:31,709 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources
+2018-09-19 19:56:45,815 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:56:45,816 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\main\resources
+2018-09-19 19:56:45,817 [Worker-48] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-09-19 19:56:45,818 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Digital2\05-Spring-MVC-JPA\src\test\resources

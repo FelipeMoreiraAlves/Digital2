@@ -13,7 +13,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<a class="navbar-brand" href="<c:url value="/"/>">Home</a>
+		<a class="navbar-brand" href="<c:url value="/convidado/cadastrar"/>">Home</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -27,10 +27,10 @@
 					class="nav-link dropdown-toggle"
 					href="#" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
-					aria-expanded="false"> Produto </a>
+					aria-expanded="false"> Convidado </a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="<c:url value="/produto/cadastrar"/>">Cadastrar</a> <a
-							class="dropdown-item" href="<c:url value="/produto/listar"/>">Listar</a>
+						<a class="dropdown-item" href="<c:url value="/convidado/cadastrar"/>">Cadastrar</a> <a
+							class="dropdown-item" href="<c:url value="/convidado/listar"/>">Listar</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div></li>
