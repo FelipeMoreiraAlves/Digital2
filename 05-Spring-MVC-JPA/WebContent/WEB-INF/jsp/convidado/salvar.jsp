@@ -20,6 +20,10 @@
 				<input type="text" id="email" name="email" class="form-control"/>
 			</div>
 			<div class="form-group">
+				<label for="data">Data</label>
+				<input type="text" id="data" name="dataAniversario" class="form-control"/>
+			</div>
+			<div class="form-group">
 				<input type="checkbox" id="confirmado" value="false" name="confirmado"/>
 				<label for="confirmado">Confirmado</label>
 			</div>

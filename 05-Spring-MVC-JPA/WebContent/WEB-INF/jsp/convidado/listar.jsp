@@ -3,6 +3,7 @@
 
 <%@ taglib prefix="tags" tagdir="/WEB-INF/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 
 <tags:template titulo="Lista">
@@ -18,6 +19,7 @@
 				<th>Código</th>
 				<th>Nome</th>
 				<th>Email</th>
+				<th>Data Aniversario</th>
 				<th>Presença</th>
 				<th class="text-center">Ações</th>
 			</tr>
@@ -26,16 +28,16 @@
 					<td>${con.codigo}</td>
 					<td>${con.nome}</td>
 					<td>${con.email}</td>
+					<td> <fmt:formatDate value="${con.dataAniversario.time }" pattern="dd/MM/yyyy"/> </td>
 					<td>${con.confirmado ? "Confirmado" : "Não confirmado"}</td>
-					<td><a
-							href="<c:url value="/convidado/editar/${con.codigo }"/>"
+					<td><a  href="<c:url value="/convidado/editar/${con.codigo }"/>"
 							class="btn btn-outline-primary">Editar</a>
-						<button onclick="codigoConvidado.value = ${con.codigo}"
+						<button ${!con.confirmado?"disabled":"" } onclick="codigoExcluir.value = ${con.codigo}"
 								type="button" class="btn btn-outline-danger" data-toggle="modal"
 								data-target="#apagar">
   						Apagar
 					</button>
-					<button onclick="codigoConvidado.value = ${con.codigo}"
+					<button ${con.confirmado?"disabled":"" } onclick="codigoConvidado.value = ${con.codigo}"
 								type="button" class="btn btn-outline-success" data-toggle="modal"
 								data-target="#confirmar">
   						Confirmar
@@ -60,7 +62,7 @@
       </div>
       <div class="modal-footer">
       	<form action="<c:url value="/convidado/excluir"/>" method="post">
-      		<input type="hidden" id="codigoConvidado" name="codigo">
+      		<input type="hidden" id="codigoExcluir" name="codigo">
 	        <button type="button" class="btn btn-secondary"
 									data-dismiss="modal">Cancelar</button>
 	        <button type="submit" class="btn btn-danger">Apagar</button>
@@ -75,17 +77,17 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Confirmar Presença ?</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Confirmação de presença</h5>
         <button type="button" class="close" data-dismiss="modal"
 								aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        Confirmação de presença
+        Confirmar presença ?
       </div>
       <div class="modal-footer">
-      	<form action="<c:url value="/convidado/excluir"/>" method="post">
+      	<form action="<c:url value="/convidado/confirmar"/>" method="post">
       		<input type="hidden" id="codigoConvidado" name="codigo">
 	        <button type="button" class="btn btn-secondary"
 									data-dismiss="modal">Cancelar</button>

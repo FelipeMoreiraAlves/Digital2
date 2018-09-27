@@ -37,7 +37,7 @@
 				<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a>
 				</li>
 			</ul>
-			<form action="<c:url value="/produto/pesquisar"/>" class="form-inline my-2 my-lg-0">
+			<form action="<c:url value="/convidado/pesquisar"/>" class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search"
 					placeholder="Buscar por nome" name="search" aria-label="Search">
 				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
