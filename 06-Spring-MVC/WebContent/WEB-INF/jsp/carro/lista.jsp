@@ -11,7 +11,8 @@
 	<th>Modelo</th>
 	<th>Marca</th>
 	<th>Data de Fabricação</th>
-	<th>Completo</th>	
+	<th>Completo</th>
+	<th>Tipo Combustivel</th>	
 </tr>
 <c:forEach items="${carros}" var="c">
 	<tr>
@@ -22,6 +23,7 @@
 			pattern="dd/MM/yyyy"/>
 		</td>
 		<td>${c.completo ?"Sim" : "Não" }</td>
+		<td>${c.combustivel.label }</td>
 	</tr>
 </c:forEach>
 </table>

@@ -6,5 +6,5 @@ import br.com.fiap.spring.model.Carro;
 
 public interface CarroDAO extends GenericDAO<Carro, Integer>{
 
-	
+	List<Carro> pesquisarPor(String modelo);
 }

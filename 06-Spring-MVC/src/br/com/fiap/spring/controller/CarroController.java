@@ -17,6 +17,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import br.com.fiap.jpa.dao.CarroDAO;
 import br.com.fiap.jpa.dao.MarcaDAO;
 import br.com.fiap.spring.model.Carro;
+import br.com.fiap.spring.model.Combustivel;
 import br.com.fiap.spring.model.Marca;
 
 @Controller
@@ -29,10 +30,18 @@ public class CarroController {
 	@Autowired
 	private MarcaDAO daoMarca;
 
+	@GetMapping("buscar")
+	public ModelAndView pesquisarPor(String search) {
+		return new ModelAndView("carro/lista").addObject("carros", dao.pesquisarPor(search));
+	}
+	
+	
 	@GetMapping("cadastrar")
 	public ModelAndView cadastrar(Carro carro) {
 		List<Marca> lista = daoMarca.listar();
-		return new ModelAndView("carro/form").addObject("marcas", lista);
+		return new ModelAndView("carro/form")
+				.addObject("marcas", lista)
+				.addObject("combustiveis", Combustivel.values());
 	}
 	
 	@GetMapping("listar")

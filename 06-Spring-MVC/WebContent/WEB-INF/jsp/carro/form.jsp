@@ -22,6 +22,7 @@
 		<div class="form-group">
 			<form:label path="marca">Marca</form:label>
 			<form:select path="marca.codigo" cssClass="form-control">
+				<form:option value="0">Selecione</form:option>
 				<form:options items="${marcas }" itemLabel="nome" itemValue="codigo"/>
 			</form:select>
 		</div>
@@ -30,6 +31,13 @@
 			<form:label path="dataFabricacao"> Data de Fabricação</form:label>
 			<form:input path="dataFabricacao" cssClass="form-control" />
 			<form:errors path="dataFabricacao"/>
+		</div>
+		<div class="form-group">
+			<form:label path="combustivel">Combustivel</form:label>
+			<form:select path="combustivel" cssClass="form-control">
+				<form:option value="0">Selecione</form:option>
+				<form:options items="${combustiveis}" itemLabel="label" />
+			</form:select>
 		</div>
 		<div class="form-group">
 			<form:checkbox path="completo"/>
